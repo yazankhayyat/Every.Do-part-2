@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACD201F51BCD61B400CB4562 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD201F41BCD61B400CB4562 /* main.m */; };
+		ACD201F81BCD61B400CB4562 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD201F71BCD61B400CB4562 /* AppDelegate.m */; };
+		ACD201FB1BCD61B400CB4562 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD201FA1BCD61B400CB4562 /* MasterViewController.m */; };
+		ACD201FE1BCD61B400CB4562 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD201FD1BCD61B400CB4562 /* DetailViewController.m */; };
+		ACD202011BCD61B400CB4562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD201FF1BCD61B400CB4562 /* Main.storyboard */; };
+		ACD202031BCD61B400CB4562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD202021BCD61B400CB4562 /* Assets.xcassets */; };
+		ACD202061BCD61B400CB4562 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD202041BCD61B400CB4562 /* LaunchScreen.storyboard */; };
+		ACD202111BCD61B400CB4562 /* Every_Do_2nd_CohortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD202101BCD61B400CB4562 /* Every_Do_2nd_CohortTests.m */; };
+		ACD2021C1BCD61B400CB4562 /* Every_Do_2nd_CohortUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD2021B1BCD61B400CB4562 /* Every_Do_2nd_CohortUITests.m */; };
+		ACD2022B1BCD61D600CB4562 /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD2022A1BCD61D600CB4562 /* Todo.m */; settings = {ASSET_TAGS = (); }; };
+		ACD2022E1BCD669C00CB4562 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD2022D1BCD669C00CB4562 /* MyTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		ACD202311BCD986D00CB4562 /* AddTodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD202301BCD986D00CB4562 /* AddTodoViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACD2020D1BCD61B400CB4562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD201E81BCD61B400CB4562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACD201EF1BCD61B400CB4562;
+			remoteInfo = "Every.Do 2nd Cohort";
+		};
+		ACD202181BCD61B400CB4562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD201E81BCD61B400CB4562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACD201EF1BCD61B400CB4562;
+			remoteInfo = "Every.Do 2nd Cohort";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACD201F01BCD61B400CB4562 /* Every.Do 2nd Cohort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Every.Do 2nd Cohort.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD201F41BCD61B400CB4562 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACD201F61BCD61B400CB4562 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACD201F71BCD61B400CB4562 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACD201F91BCD61B400CB4562 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		ACD201FA1BCD61B400CB4562 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		ACD201FC1BCD61B400CB4562 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		ACD201FD1BCD61B400CB4562 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		ACD202001BCD61B400CB4562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACD202021BCD61B400CB4562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACD202051BCD61B400CB4562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACD202071BCD61B400CB4562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD2020C1BCD61B400CB4562 /* Every.Do 2nd CohortTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Every.Do 2nd CohortTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD202101BCD61B400CB4562 /* Every_Do_2nd_CohortTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Every_Do_2nd_CohortTests.m; sourceTree = "<group>"; };
+		ACD202121BCD61B400CB4562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD202171BCD61B400CB4562 /* Every.Do 2nd CohortUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Every.Do 2nd CohortUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD2021B1BCD61B400CB4562 /* Every_Do_2nd_CohortUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Every_Do_2nd_CohortUITests.m; sourceTree = "<group>"; };
+		ACD2021D1BCD61B400CB4562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD202291BCD61D600CB4562 /* Todo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Todo.h; sourceTree = "<group>"; };
+		ACD2022A1BCD61D600CB4562 /* Todo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Todo.m; sourceTree = "<group>"; };
+		ACD2022C1BCD669C00CB4562 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		ACD2022D1BCD669C00CB4562 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		ACD2022F1BCD986D00CB4562 /* AddTodoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTodoViewController.h; sourceTree = "<group>"; };
+		ACD202301BCD986D00CB4562 /* AddTodoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTodoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACD201ED1BCD61B400CB4562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD202091BCD61B400CB4562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD202141BCD61B400CB4562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACD201E71BCD61B400CB4562 = {
+			isa = PBXGroup;
+			children = (
+				ACD201F21BCD61B400CB4562 /* Every.Do 2nd Cohort */,
+				ACD2020F1BCD61B400CB4562 /* Every.Do 2nd CohortTests */,
+				ACD2021A1BCD61B400CB4562 /* Every.Do 2nd CohortUITests */,
+				ACD201F11BCD61B400CB4562 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACD201F11BCD61B400CB4562 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACD201F01BCD61B400CB4562 /* Every.Do 2nd Cohort.app */,
+				ACD2020C1BCD61B400CB4562 /* Every.Do 2nd CohortTests.xctest */,
+				ACD202171BCD61B400CB4562 /* Every.Do 2nd CohortUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACD201F21BCD61B400CB4562 /* Every.Do 2nd Cohort */ = {
+			isa = PBXGroup;
+			children = (
+				ACD201F61BCD61B400CB4562 /* AppDelegate.h */,
+				ACD201F71BCD61B400CB4562 /* AppDelegate.m */,
+				ACD201F91BCD61B400CB4562 /* MasterViewController.h */,
+				ACD201FA1BCD61B400CB4562 /* MasterViewController.m */,
+				ACD2022C1BCD669C00CB4562 /* MyTableViewCell.h */,
+				ACD2022D1BCD669C00CB4562 /* MyTableViewCell.m */,
+				ACD202291BCD61D600CB4562 /* Todo.h */,
+				ACD2022A1BCD61D600CB4562 /* Todo.m */,
+				ACD201FC1BCD61B400CB4562 /* DetailViewController.h */,
+				ACD201FD1BCD61B400CB4562 /* DetailViewController.m */,
+				ACD2022F1BCD986D00CB4562 /* AddTodoViewController.h */,
+				ACD202301BCD986D00CB4562 /* AddTodoViewController.m */,
+				ACD201FF1BCD61B400CB4562 /* Main.storyboard */,
+				ACD202021BCD61B400CB4562 /* Assets.xcassets */,
+				ACD202041BCD61B400CB4562 /* LaunchScreen.storyboard */,
+				ACD202071BCD61B400CB4562 /* Info.plist */,
+				ACD201F31BCD61B400CB4562 /* Supporting Files */,
+			);
+			path = "Every.Do 2nd Cohort";
+			sourceTree = "<group>";
+		};
+		ACD201F31BCD61B400CB4562 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACD201F41BCD61B400CB4562 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACD2020F1BCD61B400CB4562 /* Every.Do 2nd CohortTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACD202101BCD61B400CB4562 /* Every_Do_2nd_CohortTests.m */,
+				ACD202121BCD61B400CB4562 /* Info.plist */,
+			);
+			path = "Every.Do 2nd CohortTests";
+			sourceTree = "<group>";
+		};
+		ACD2021A1BCD61B400CB4562 /* Every.Do 2nd CohortUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACD2021B1BCD61B400CB4562 /* Every_Do_2nd_CohortUITests.m */,
+				ACD2021D1BCD61B400CB4562 /* Info.plist */,
+			);
+			path = "Every.Do 2nd CohortUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACD201EF1BCD61B400CB4562 /* Every.Do 2nd Cohort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD202201BCD61B400CB4562 /* Build configuration list for PBXNativeTarget "Every.Do 2nd Cohort" */;
+			buildPhases = (
+				ACD201EC1BCD61B400CB4562 /* Sources */,
+				ACD201ED1BCD61B400CB4562 /* Frameworks */,
+				ACD201EE1BCD61B400CB4562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Every.Do 2nd Cohort";
+			productName = "Every.Do 2nd Cohort";
+			productReference = ACD201F01BCD61B400CB4562 /* Every.Do 2nd Cohort.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACD2020B1BCD61B400CB4562 /* Every.Do 2nd CohortTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD202231BCD61B400CB4562 /* Build configuration list for PBXNativeTarget "Every.Do 2nd CohortTests" */;
+			buildPhases = (
+				ACD202081BCD61B400CB4562 /* Sources */,
+				ACD202091BCD61B400CB4562 /* Frameworks */,
+				ACD2020A1BCD61B400CB4562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACD2020E1BCD61B400CB4562 /* PBXTargetDependency */,
+			);
+			name = "Every.Do 2nd CohortTests";
+			productName = "Every.Do 2nd CohortTests";
+			productReference = ACD2020C1BCD61B400CB4562 /* Every.Do 2nd CohortTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACD202161BCD61B400CB4562 /* Every.Do 2nd CohortUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD202261BCD61B400CB4562 /* Build configuration list for PBXNativeTarget "Every.Do 2nd CohortUITests" */;
+			buildPhases = (
+				ACD202131BCD61B400CB4562 /* Sources */,
+				ACD202141BCD61B400CB4562 /* Frameworks */,
+				ACD202151BCD61B400CB4562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACD202191BCD61B400CB4562 /* PBXTargetDependency */,
+			);
+			name = "Every.Do 2nd CohortUITests";
+			productName = "Every.Do 2nd CohortUITests";
+			productReference = ACD202171BCD61B400CB4562 /* Every.Do 2nd CohortUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACD201E81BCD61B400CB4562 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Yazan;
+				TargetAttributes = {
+					ACD201EF1BCD61B400CB4562 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = A7XKQ8A95F;
+					};
+					ACD2020B1BCD61B400CB4562 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = A7XKQ8A95F;
+						TestTargetID = ACD201EF1BCD61B400CB4562;
+					};
+					ACD202161BCD61B400CB4562 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = A7XKQ8A95F;
+						TestTargetID = ACD201EF1BCD61B400CB4562;
+					};
+				};
+			};
+			buildConfigurationList = ACD201EB1BCD61B400CB4562 /* Build configuration list for PBXProject "Every.Do 2nd Cohort" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACD201E71BCD61B400CB4562;
+			productRefGroup = ACD201F11BCD61B400CB4562 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACD201EF1BCD61B400CB4562 /* Every.Do 2nd Cohort */,
+				ACD2020B1BCD61B400CB4562 /* Every.Do 2nd CohortTests */,
+				ACD202161BCD61B400CB4562 /* Every.Do 2nd CohortUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACD201EE1BCD61B400CB4562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD202061BCD61B400CB4562 /* LaunchScreen.storyboard in Resources */,
+				ACD202031BCD61B400CB4562 /* Assets.xcassets in Resources */,
+				ACD202011BCD61B400CB4562 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD2020A1BCD61B400CB4562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD202151BCD61B400CB4562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACD201EC1BCD61B400CB4562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD2022B1BCD61D600CB4562 /* Todo.m in Sources */,
+				ACD201F81BCD61B400CB4562 /* AppDelegate.m in Sources */,
+				ACD202311BCD986D00CB4562 /* AddTodoViewController.m in Sources */,
+				ACD201FB1BCD61B400CB4562 /* MasterViewController.m in Sources */,
+				ACD2022E1BCD669C00CB4562 /* MyTableViewCell.m in Sources */,
+				ACD201F51BCD61B400CB4562 /* main.m in Sources */,
+				ACD201FE1BCD61B400CB4562 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD202081BCD61B400CB4562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD202111BCD61B400CB4562 /* Every_Do_2nd_CohortTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD202131BCD61B400CB4562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD2021C1BCD61B400CB4562 /* Every_Do_2nd_CohortUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACD2020E1BCD61B400CB4562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACD201EF1BCD61B400CB4562 /* Every.Do 2nd Cohort */;
+			targetProxy = ACD2020D1BCD61B400CB4562 /* PBXContainerItemProxy */;
+		};
+		ACD202191BCD61B400CB4562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACD201EF1BCD61B400CB4562 /* Every.Do 2nd Cohort */;
+			targetProxy = ACD202181BCD61B400CB4562 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACD201FF1BCD61B400CB4562 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACD202001BCD61B400CB4562 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACD202041BCD61B400CB4562 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACD202051BCD61B400CB4562 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACD2021E1BCD61B400CB4562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACD2021F1BCD61B400CB4562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACD202211BCD61B400CB4562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Every.Do 2nd Cohort/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yazan.Every-Do-2nd-Cohort";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACD202221BCD61B400CB4562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Every.Do 2nd Cohort/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yazan.Every-Do-2nd-Cohort";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACD202241BCD61B400CB4562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Every.Do 2nd CohortTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yazan.Every-Do-2nd-CohortTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Every.Do 2nd Cohort.app/Every.Do 2nd Cohort";
+			};
+			name = Debug;
+		};
+		ACD202251BCD61B400CB4562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Every.Do 2nd CohortTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yazan.Every-Do-2nd-CohortTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Every.Do 2nd Cohort.app/Every.Do 2nd Cohort";
+			};
+			name = Release;
+		};
+		ACD202271BCD61B400CB4562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Every.Do 2nd CohortUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yazan.Every-Do-2nd-CohortUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Every.Do 2nd Cohort";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ACD202281BCD61B400CB4562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Every.Do 2nd CohortUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yazan.Every-Do-2nd-CohortUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Every.Do 2nd Cohort";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACD201EB1BCD61B400CB4562 /* Build configuration list for PBXProject "Every.Do 2nd Cohort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD2021E1BCD61B400CB4562 /* Debug */,
+				ACD2021F1BCD61B400CB4562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD202201BCD61B400CB4562 /* Build configuration list for PBXNativeTarget "Every.Do 2nd Cohort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD202211BCD61B400CB4562 /* Debug */,
+				ACD202221BCD61B400CB4562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACD202231BCD61B400CB4562 /* Build configuration list for PBXNativeTarget "Every.Do 2nd CohortTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD202241BCD61B400CB4562 /* Debug */,
+				ACD202251BCD61B400CB4562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACD202261BCD61B400CB4562 /* Build configuration list for PBXNativeTarget "Every.Do 2nd CohortUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD202271BCD61B400CB4562 /* Debug */,
+				ACD202281BCD61B400CB4562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACD201E81BCD61B400CB4562 /* Project object */;
+}
